@@ -1,0 +1,43 @@
+$celeste: #34bfc2;
+
+@mixin margins ($left, $top){
+    margin-left: $left;
+    margin-top: $top;
+}
+
+.jumbotron{
+    background-color: $celeste;
+    color: black;
+    padding-left: 2rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color:  $celeste;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 0rem;
+}
+.btn-ver-mas{
+    width: 100%;
+    border-radius: 0;
+}
+.card-hoteles{
+    flex: 12rem;
+    @include margins(5px, 5px)
+}
+
+.justify-content-between{
+    justify-content: space-between!important;
+}
+.margen-info{
+    margin-bottom: 3rem;
+}
+.nav{
+    margin-bottom: 10px;
+}
+.carousel{
+    margin-bottom: 10px;
+}
